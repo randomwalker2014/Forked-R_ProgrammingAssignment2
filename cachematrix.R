@@ -1,5 +1,4 @@
-## The following functions provide functions used for caching potentially 
-## time-consuming computations.
+## The following  functions enable caching for potentially time-consuming computations.
 
 
 
@@ -14,7 +13,7 @@
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         
-        setMatrix <<- function(mx) {
+        setMatrix <- function(mx) {
                 x <<- mx
                 inv <<- NULL
         }
